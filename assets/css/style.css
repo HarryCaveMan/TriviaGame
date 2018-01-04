@@ -1,0 +1,24 @@
+body{
+	background:url(../images/trivia.png) no-repeat;
+}
+
+h1{
+	font-size:600%;
+}
+
+#game-box{
+	background:url(../images/chalkboard.svg) no-repeat;
+	background-size:contain;
+	width:1027px;
+	height:650px;
+	margin:auto;
+}
+#game-data{
+	font-family: 'Just Another Hand', cursive;
+}
+
+#title{
+	color:#fff;
+	padding-top:40px;
+	text-align:center;
+}

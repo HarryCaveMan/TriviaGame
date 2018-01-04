@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia Game</title>
+  <!--boodstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--custom style-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!--google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet"> 
+</head>
+
+<body>
+
+	<div id="game-box">
+        <div class="container-fluid" id="game-data">
+        <div class="row" id="title">
+        <h1></h1>
+        </div><!--title-->
+        <div class="row" id="scoreboard">
+         <div class="col-sm-6 col-md-6 col-lg-6">
+          <h2><span id="right"></span><span id="numRight"></span></h2>
+         </div><!--right-->
+         <div class="col-sm-6 col-md-6 col-lg-6">
+          <h2><span id="wrong"></span><span id="numWrong"></span></h2>
+         </div><!--right-->
+
+        </div><!--scoreboard-->
+        </div><!--game-data-->
+	</div><!--game-box-->
+	
+	 <!-- jQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <!-- Script -->
+    <script type="text/javascript" src="assets/js/trivia.js"></script>
+</body>
